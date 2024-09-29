@@ -8,20 +8,74 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar"></div>
+        <div class="sidebar">
+            <div class="branding">
+                <img src="images/atlassian.svg" height="35px" width="35px"><span class="side-links">DASHBOARD</span>
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <img src="images/home.svg" height="25px" width="25px">
+                        <span class="side-links">Home</span>
+                    </li>
+                    <li>
+                        <img src="images/account.svg" height="25px" width="25px">
+                        <span class="side-links">Profile</span>
+                    </li>
+                    <li>
+                        <img src="images/message-reply.svg" height="25px" width="25px">
+                        <span class="side-links">Messages</span>
+                    </li>
+                    <li>
+                        <img src="images/history.svg" height="25px" width="25px">
+                        <span class="side-links">History</span>
+                    </li>
+                    <li>
+                        <img src="images/file-multiple.svg" height="25px" width="25px">
+                        <span class="side-links">Tasks</span>
+                    </li>
+                    <li>
+                        <img src="images/account-group.svg" height="25px" width="25px">
+                        <span class="side-links">Communities</span>
+                    </li>
+                    <li id="settings">
+                        <img src="images/cog.svg" height="25px" width="25px">
+                        <span class="side-links">Settings</span>
+                    </li>
+                    <li>
+                        <img src="images/help.svg" height="25px" width="25px">
+                        <span class="side-links">Support</span>
+                    </li>
+                    <li>
+                        <img src="images/shield-check.svg" height="25px" width="25px">
+                        <span class="side-links">Privacy</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <div class="header">
-            <div class="search-tab">
+            <div class="searchbar">
+                <img src="images/magnify.svg" height="25px" width="25px">
+                <input type="text" id="search"></input>
+            </div>
+            <div class="user-info">
+                <div><div class="avi"></div></div>
                 <div>
-                    <img src="images/magnify.svg" height="25px" width="25px">
-                    <input type="text" id="search-bar">
-                </div>
-                <div>
-
+                <p>
+                    Hello, how are you?
+                </p>
+                <p>
+                    Anson Reyes(@ansi)
+                </p>
                 </div>
             </div>
-            <div class="name-tab"></div>
+            <div class="header-buttons"></div>
         </div>
-        <div class="main-content"></div>
+        <div class="main-content">
+            <div class="projects"></div>
+            <div class="announcements"></div>
+            <div class="trending"></div>
+        </div>
     </div>
 </body>
 </html>
